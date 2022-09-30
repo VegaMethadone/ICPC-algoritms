@@ -10,7 +10,7 @@ int main()
     int n;
     cin >> n;
     int res;
-    int arr[n+1];
+    int arr[n];
 
     arr[0] = 0;
     arr[1] = 1;
