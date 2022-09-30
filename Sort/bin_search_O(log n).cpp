@@ -19,8 +19,8 @@ int main()
     int l = -1, r = a.size() - 1;
     while (l + 1 < r){
         int m = (l + r) / 2;
-        if(a[m] <  num){
-            l = m;
+        if(a[m] <  num){                      // (<) LowerBount - элемент <=;  Один и тот же эоеие
+            l = m;                            // (<=) UpperBount - элемент >;
         }
         else{
             r = m;
